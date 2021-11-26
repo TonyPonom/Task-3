@@ -1,0 +1,47 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t6.inf",
+                "time": 1637662637860
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t7.inf",
+                "time": 1637662638186
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t8.inf",
+                "time": 1637662650541
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t9.inf",
+                "time": 1637662654798
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "03.OpenPage_Flight",
+                "rawStartTime": 1637662637676,
+                "rawEndTime": 1637662637869,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010311603546142578
+            },
+            {
+                "transactionName": "04.Create_Flight",
+                "rawStartTime": 1637662638267,
+                "rawEndTime": 1637662654707,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00742340087890625
+            }
+        ]
+    }
+]

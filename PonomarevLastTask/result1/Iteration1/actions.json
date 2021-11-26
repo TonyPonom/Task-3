@@ -1,0 +1,85 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t6.inf",
+                "time": 1637662592994
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t7.inf",
+                "time": 1637662593160
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t8.inf",
+                "time": 1637662593373
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t9.inf",
+                "time": 1637662593521
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t10.inf",
+                "time": 1637662637311
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t11.inf",
+                "time": 1637662637388
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t12.inf",
+                "time": 1637662637533
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t13.inf",
+                "time": 1637662637627
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "03.OpenPage_Flight",
+                "rawStartTime": 1637662592810,
+                "rawEndTime": 1637662593014,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006805419921875
+            },
+            {
+                "transactionName": "04.Create_Flight",
+                "rawStartTime": 1637662593230,
+                "rawEndTime": 1637662593429,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0047359466552734379
+            },
+            {
+                "transactionName": "05.Create_ChooseCostAndTime",
+                "rawStartTime": 1637662637189,
+                "rawEndTime": 1637662637315,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0041997432708740238
+            },
+            {
+                "transactionName": "06.Create_PaymentlDetails",
+                "rawStartTime": 1637662637415,
+                "rawEndTime": 1637662637548,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006520271301269531
+            }
+        ]
+    }
+]

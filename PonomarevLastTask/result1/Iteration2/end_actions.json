@@ -1,0 +1,28 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t10.inf",
+                "time": 1637662662163
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t11.inf",
+                "time": 1637662662242
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "07.SignOff",
+                "rawStartTime": 1637662662022,
+                "rawEndTime": 1637662662164,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008306026458740235
+            }
+        ]
+    }
+]

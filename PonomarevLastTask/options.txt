@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\heyan\OneDrive\Рабочий стол\Стажировка но нагрузочному тестированию\PonomarevLastTask
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\heyan\onedrive\рабочий стол\стажировка но нагрузочному тестированию\ponomarevlasttask\\logfile.log
+c:\users\heyan\onedrive\рабочий стол\стажировка но нагрузочному тестированию\ponomarevlasttask\\combined_PonomarevLastTask.c
+c:\users\heyan\onedrive\рабочий стол\стажировка но нагрузочному тестированию\ponomarevlasttask\\pre_cci.c

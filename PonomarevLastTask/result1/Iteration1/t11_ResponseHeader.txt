@@ -1,0 +1,8 @@
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Request-Id: 8918b092-4c46-11ec-807e-b42e991d4c3d
+X-Influxdb-Build: OSS
+X-Influxdb-Version: 1.8.4
+X-Request-Id: 8918b092-4c46-11ec-807e-b42e991d4c3d
+Date: Tue, 23 Nov 2021 10:17:17 GMT
+
